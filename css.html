@@ -1,0 +1,562 @@
+<!--
+Author: JGT-MDigital
+Author URL: PONER MI WEB
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Front End</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Front End Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+
+    <!-- font-awesome icons CSS -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons CSS-->
+
+    <!-- side nav css file -->
+    <link href='css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css' />
+    <!-- //side nav css file -->
+
+    <!-- js-->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+
+    <!--webfonts-->
+    <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <!--//webfonts-->
+
+    <!-- chart -->
+    <script src="js/Chart.js"></script>
+    <!-- //chart -->
+
+    <!-- Metis Menu -->
+    <script src="js/metisMenu.min.js"></script>
+    <script src="js/custom.js"></script>
+    <link href="css/custom.css" rel="stylesheet">
+    <!--//Metis Menu -->
+    <style>
+        #chartdiv {
+            width: 100%;
+            height: 295px;
+        }
+    </style>
+    <!--pie-chart -->
+    <!-- index page sales reviews visitors pie chart -->
+    <script src="js/pie-chart.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#demo-pie-1').pieChart({
+                barColor: '#2dde98',
+                trackColor: '#eee',
+                lineCap: 'round',
+                lineWidth: 8,
+                onStep: function(from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#8e43e7',
+                trackColor: '#eee',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function(from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-3').pieChart({
+                barColor: '#ffc168',
+                trackColor: '#eee',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function(from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+
+        });
+    </script>
+    <!-- //pie-chart -->
+    <!-- index page sales reviews visitors pie chart -->
+
+    <!-- requried-jsfiles-for owl -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+                items: 3,
+                lazyLoad: true,
+                autoPlay: true,
+                pagination: true,
+                nav: true,
+            });
+        });
+    </script>
+    <!-- //requried-jsfiles-for owl -->
+</head>
+
+<body class="cbp-spmenu-push">
+    <div class="main-content">
+        <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+            <!--left-fixed -navigation-->
+            <aside class="sidebar-left">
+                <nav class="navbar navbar-inverse">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapse" aria-expanded="false">
+            <span class="sr-only">Contenido</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+                        <h1><a class="navbar-brand" href="index.html"><span class="fa fa-area-chart"></span> Front End <span class="dashboard_text">Design Dashboard</span></a></h1>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="sidebar-menu">
+                            <li class="header">CONTENIDOS</li>
+                            <li class="treeview">
+                                <a href="index.html">
+                                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="fa fa-laptop"></i>
+                                    <span>Web Basic Components</span>
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="html.html"><i class="fa fa-angle-right"></i> HTML</a></li>
+                                    <li><a href="css.html"><i class="fa fa-angle-right"></i> Css</a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="css.html"><i class="fa fa-angle-right"></i> CSS3 Basic</a></li>
+                                            <li><a href="responsive.html"><i class="fa fa-angle-right"></i> Responsive Design</a></li>
+                                            <li><a href="grids.html"><i class="fa fa-angle-right"></i> Grids</a></li>
+                                            <li><a href="flexbox.html"><i class="fa fa-angle-right"></i> Flexbox</a></li>
+                                            <li><a href="mediaqueries.html"><i class="fa fa-angle-right"></i> Media Queries</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i> JavaScript</a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="js.html"><i class="fa fa-angle-right"></i>JavaScript General</a></li>
+                                            <li><a href="dom.html"><i class="fa fa-angle-right"></i>DOM (DOCUMENT OBJECT MODEL)</a></li>
+                                            <li><a href="context.html"><i class="fa fa-angle-right"></i> Context</a></li>
+                                            <li><a href="clousers.html"><i class="fa fa-angle-right"></i> Clousers</a></li>
+                                            <li><a href="scope.html"><i class="fa fa-angle-right"></i> Scope</a></li>
+                                            <li><a href="classes.html"><i class="fa fa-angle-right"></i> Classes</a></li>
+                                            <li><a href="funtions.html"><i class="fa fa-angle-right"></i> Funtions</a></li>
+                                            <li><a href="oop.html"><i class="fa fa-angle-right"></i> OOP (OBJECT ORIENTED PROGRAMMING)</a></li>
+                                            <li><a href="js.html"><i class="fa fa-angle-right"></i> JavaScript Modular</a></li>
+                                            <li><a href="imports/exports.html"><i class="fa fa-angle-right"></i> Imports/Exports</a></li>
+                                            <li><a href="webapis.html"><i class="fa fa-angle-right"></i> Web Apis</a></li>
+                                            <li><a href="set.html"><i class="fa fa-angle-right"></i> Setinterval/Settimeout</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--PROGRAMMING TOOLS  -->
+                            <li class="treeview">
+                                <li class="treeview">
+                                    <a href="#">
+                                        <i class=" fa fa-cogs"></i>
+                                        <span>Programming Tools</span>
+                                        <i class="fa fa-angle-left pull-right"></i>
+                                    </a>
+                                    <ul class="treeview-menu">
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> LA TERMINAL</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> SSH</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> GIT</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> REST APIS (CREAT, READ, UPDATE, DELETE)</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> DNS</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> LINTERS</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> IDE (VSCODE)</a></li>
+                                    </ul>
+                                </li>
+                                <!-- DESING TOOLS -->
+                                <li class="treeview">
+                                    <li class="treeview">
+                                        <a href="#">
+                                            <i class=" fa fa-cogs"></i>
+                                            <span>Design Tools</span>
+                                            <i class="fa fa-angle-left pull-right"></i>
+                                        </a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="#"><i class="fa fa-angle-right"></i> PHOTOSHOP</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right"></i> ILUSTRATOR</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right"></i> SKETCH</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right"></i> ZEPELIN</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- FRONT END PLUS -->
+                                    <li class="treeview">
+                                        <li class="treeview">
+                                            <a href="#">
+                                                <i class=" fa fa-folder"></i>
+                                                <span>Front End Plus</span>
+                                                <i class="fa fa-angle-left pull-right"></i>
+                                            </a>
+                                            <ul class="treeview-menu">
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> LIBRARY ADMIN NPM</a></li>
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> BUILDERS WEBPACK</a></li>
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> SASS PARA CSS</a></li>
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> BOOTSTRAP</a></li>
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> PATRONES DE CSS BEM (BLOCK ELEMENT MODIFIER)</a></li>
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> ATOMIC DESIGN</a></li>
+                                            </ul>
+                                        </li>
+                                        <!-- JS LIBRARY -->
+                                        <li class="treeview">
+                                            <li class="treeview">
+                                                <a href="#">
+                                                    <i class=" fa fa-code"></i>
+                                                    <span>JavaScript Librery</span>
+                                                    <i class="fa fa-angle-left pull-right"></i>
+                                                </a>
+                                                <ul class="treeview-menu">
+                                                    <li><a href="#"><i class="fa fa-angle-right"></i> ANGULAR</a></li>
+                                                    <li><a href="#"><i class="fa fa-angle-right"></i> REACT</a>
+                                                        <ul class="treeview-menu">
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i> CREATE REACT APP</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i> STRYBOOK</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i> GRAPHQL</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i> REDUX</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i> MOBX</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <!-- JS TOOLS -->
+                                            <li class="treeview">
+                                                <li class="treeview">
+                                                    <a href="#">
+                                                        <i class=" fa fa-cogs"></i>
+                                                        <span>JavaScript Tools</span>
+                                                        <i class="fa fa-angle-left pull-right"></i>
+                                                    </a>
+                                                    <ul class="treeview-menu">
+                                                        <li><a href="#"><i class="fa fa-angle-right"></i> TYPESCRIPT</a></li>
+                                                        <li><a href="#"><i class="fa fa-angle-right"></i> PROPTYPES</a></li>
+                                                        <li><a href="#"><i class="fa fa-angle-right"></i> PWAS (PROGRESSIVE WEB APPS)</a></li>
+                                                        <li><a href="#"><i class="fa fa-angle-right"></i> REACT NATIVE (APK)</a></li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="header"><i class="fa fa-edit (alias)"></i> NOTES</li>
+                                                <li><a href="general.html"><i class="fa fa-angle-right text-red"></i> <span>General</span></a></li>
+                                                <li><a href="important.html"><i class="fa fa-angle-right text-yellow"></i> <span>Important</span></a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+            </aside>
+        </div>
+        <!--left-fixed -navigation-->
+
+        <!-- header-starts -->
+        <div class="sticky-header header-section ">
+            <div class="header-left">
+                <!--toggle button start-->
+                <button id="showLeftPush"><i class="fa fa-bars"></i></button>
+                <!--toggle button end-->
+
+                <!--notification menu end -->
+                <div class="clearfix"> </div>
+            </div>
+            <div class="header-right">
+
+
+                <!--search-box-->
+                <div class="search-box">
+                    <form class="input">
+                        <input class="sb-search-input input__field--madoka" placeholder="Search..." type="search" id="input-31" />
+                        <label class="input__label" for="input-31">
+							<svg class="graphic" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"/>
+							</svg>
+						</label>
+                    </form>
+                </div>
+                <!--//end-search-box-->
+
+                <div class="profile_details">
+                    <ul>
+                        <li class="dropdown profile_details_drop">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <div class="profile_img">
+                                    <span class="prfil-img"><img src="images/admin.png" alt=""> </span>
+                                    <div class="user-name">
+                                        <p>JGT-MDigital</p>
+                                        <span>Administrator</span>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <!-- //header-ends -->
+        <!-- main content start-->
+        <div id="page-wrapper">
+            <div class="main-page">
+                <h2 class="title1">CSS3</h2>
+                <!-- HTML -->
+                <!-- HTML BASIC ELEMENTS -->
+                <div class="panel1 variations-panel">
+                    <div class="panel-body mtn">
+                        <h3 class="w3_inner_tittle two">Elementos Basicos</h3>
+                    </div>
+                    <h4 class="title2">Css:</h4>
+						<ul id="myTabs" class="nav nav-tabs" role="tablist"> 
+                            <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Definicion de Estilos</a></li> 
+                            <li role="presentation" class=""><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Identificadores y Clases</a></li>
+                            <li role="presentation" class="dropdown"> <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown" aria-controls="myTabDrop1-contents" aria-expanded="false">CSS3 <span class="caret"></span></a>  
+                                <ul class="dropdown-menu" aria-labelledby="myTabDrop1" id="myTabDrop1-contents"> 
+                                    <li class=""><a href="#dropdown1" role="tab" id="dropdown1-tab" data-toggle="tab" aria-controls="dropdown1" aria-expanded="false">Selectores de Atributos</a></li> 
+                                    <li class=""><a href="#dropdown2" role="tab" id="dropdown2-tab" data-toggle="tab" aria-controls="dropdown2" aria-expanded="false">Nuevas pseudo-clases</a></li> 
+                                    <li class=""><a href="#dropdown3" role="tab" id="dropdown3-tab" data-toggle="tab" aria-controls="dropdown3" aria-expanded="false">Pseudo-clases para Formularios</a></li> 
+                                </ul> 
+                            </li> 
+                        </ul>
+                        <br>
+						<div id="myTabContent" class="tab-content scrollbar1">
+                            <div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab"> 
+                                <div class="bs-example-tooltips"> 
+                                    <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="etiqueta {
+                                        estilo1; estilo2;
+                                    }">
+                                      Definir un estilo 
+                                    </button>
+            
+                                    <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="etiqueta1, etiqueta2, etiqueta3 {
+                                        estilo1;
+                                        estilo2;
+                                        estilo3;
+                                    }">
+                                      Estilo para varia etiquetas
+                                    </button>
+
+                                    <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="contenedor etiqueta {
+                                        estilo;
+                                    }">
+                                        Estilos anidados
+                                      </button>
+                                      <script>
+                                        $(function () {
+                                            $('[data-toggle="popover"]').popover()
+                                        })
+                                    </script>
+                                </div>
+                                <p>Podemos filtrar todo tipo de etiquetas e inclusos id y class indistintamente. Por ejemplo un ejemplo de esto seria: <br>
+                                <pre><code>div p #textoPrincipal .articulos { <br> color: red; <br>}</code></pre>
+                                Aqui estariamos aplicando un color rojo a las clases articulos que esten dentro de un identificador textoPrincipal el cual esta dentro de una etiqueta p y este dentro de un div.
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade " id="profile" aria-labelledby="profile-tab"> 
+                                <p>Los [id] son unicos e irrepetibles se declaran de la siguente forma: <br>
+                                    <pre><code>id="identificador" <br>#identificador {estilo; estilo1;}
+                                    </code></pre>                                                                 
+                                </p>
+                                <p>En el caso de las clases  estas si se pueden repetir y se representan asi: <br>
+                                    <pre><code> class="clase" <br>.clase {estilo; estilo1;}
+                                    </code></pre>
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="dropdown1" aria-labelledby="dropdown1-tab"> 
+                                <p>En	primer	lugar	encontramos	3	nuevos	selectores	de	atributos:
+                                    <ul>
+                                        <li><strong> elemento[atributo^="valor"]: </strong>Selecciona	los	elementos	con	ese	atributo	y	que	su valor	comienza	por	la	cadena	de	texto	indicada	en	"valor".</li><br>
+                                        <li><strong>elemento[atributo$="valor"]: </strong>Selecciona	los	elementos	con	ese	atributo	y	que	su valor	termina	por	la	cadena	de	texto	indicada	en	"valor".</li><br>
+                                        <li><strong>elemento[atributo*="valor"]: </strong>Selecciona	los	elementos	con	ese	atributo	y	que	su	valor contiene	la	cadena	de	texto	indicada	en	"valor".</li><br>
+                                    </ul>
+                                    Por	ejemplo:
+                                    <pre><code>//	Selecciona	todos los enlaces	que	apunten	a	una	dirección	de	correo: <br>a[href^="mailto:"]{...} <br>//	Selecciona	todos los	enlaces	que	apuntan	a	páginas	.php <br>a[href$=".php"]{...} <br>//	Selecciona	todos	los	enlaces	que	lleven	a	una	página	que	contenga	la	palabra	ejemplo: <br>a[href*="ejemplo"]{...}</code></pre>
+                                    <br>Podemos indicar atributos	específicos	de	una	etiqueta,	con:
+                                    <ul><li><strong>etiqueta[atributo=valor]:</strong> seleccionaría	todas	las	etiquetas	"etiqueta"	que
+                                        contengan	un	atributo	llamado	"atributo"	cuyo	valor	sea	igual	a	"valor".	</li></ul>
+                                        <pre><code>input[type="texto"] {<br>background: red;<br>}</code> </pre>
+                                        
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="dropdown2" aria-labelledby="dropdown2-tab"> 
+                                <p>Una	pseudo-clase	es	un	estado	o	uso	predefinido	de	un	elemento	al	que	se	le	puede	aplicar
+                                    un	estilo	independientemente	del	estilo	aplicado	al	de	 su	estado	por	defecto.	En	CSS3	se
+                                    han	añadido	muchas	nuevas	pseudo-clases	para	facilitar	a	los	programadores	el	uso	de
+                                    algunos	estilos	avanzados	en	el	diseño	de	páginas	Web.</p>
+                                    <ul>
+                                    <li><strong>:nth-child(n)	-</strong> 	Fija	el	aspecto	de	una	ocurrencia	específica	del	elemento	nodo	hijo
+                                        especificado.	Por	ejemplo,	el	tercer	elemento	nodo	hijo	de	una	lista	sería	"li:nthchild(3)".	Además	se	pueden	usar	pequeñas	expresiones	como	parámetro	para	por
+                                        ejemplo	seleccionar	todos	los	elementos	impares:	"nth-child(2n+1)"	los	pares	"nthchild(2n)",	etc.	Los	elementos	impares	y	pares	también	se	pueden	seleccionar	usando
+                                        "nth-child(odd)"	y	"nth-child(even)"</li><br>
+                                    <li><strong>:nth-last-child(n)	-</strong> igual	que	":nth-child(n)" pero	empezando	a	contar	desde	el	final.</li><br>
+                                    <li><strong>:nth-of-type(n)	-</strong>	Fija	la	apariencia	de	una	ocurrencia	específica	del	elemento	con	el
+                                        tipo	de	selector	especificado	en	un	elemento	padre.	Por	ejemplo	la	segunda	lista	no
+                                        ordenada	sería	ul:nth-of-type(2).	También	permite	los	mismos	parámetros	que	":nthchild(#)"</li><br>
+                                    <li><strong>:nth-last-of-type(n)	-</strong>igual	que	":nth-of-type(n)"	pero	empezando	a	contar	desde	el
+                                        final.	</li><br>
+                                    <li><strong>:first-child	-</strong>Fija	el	aspecto	del	primer	elemento	de	un	tipo	de	selector	solo	si	es	el
+                                        primer	nodo	hijo	de	su	elemento	padre,	por	ejemplo	la	primera	 etiqueta	 	[li]	 	de	una
+                                        lista	 	[ol] 	</li><br>
+                                    <li><strong>:last-child	-</strong> Ultimo	elemento	de	una	lista	de	elementos	de	un	tipo	dado</li><br>
+                                    <li><strong>:first-of-type	-</strong>Selecciona	el	primer	elemento	de	un	tipo	concreto	dentro	de	 la	lista	de
+                                        hijos</li><br>
+                                    <li><strong>:last-of-type	-	</strong>Selecciona	el	último	elemento	de	un	tipo</li><br>
+                                    <li><strong>:only-child	-	</strong>Selecciona	el	elemento	si	es	el	único	elemento	hijo.</li><br>
+                                    <li><strong>:only-of-type	-	</strong>Selecciona	el	elemento	si	es	el	único	elemento	hijo	de	ese	tipo.</li><br>
+                                    <li><strong>:empty	-	</strong>Selecciona	los	elementos	que	no	tienen	hijos	(incluyendo	nodos	de	texto).</li>
+                                    <li><strong>:enabled	-	</strong>Selecciona	los	elementos	de	la	interfaz	que	tengan	el	estado	"enable".</li><br>
+                                    <li><strong>:disabled	-</strong> 	Selecciona	los	elementos	de	la	interfaz	que	tengan	un	estado	"disabled".</li><br>
+                                    <li><strong>:not(s)	-</strong>Selecciona	los	elementos	que	no	coincidan	con	el	selector	especificado.</li><br>
+                                    <li><strong>:lang(language)	-	</strong>nos	permite	especificar	estilos	que	dependen	del	idioma
+                                        especificado	por	la	propiedad	language	(en,	sp,	etc.)</li></ul>
+                                        <pre><code>tr:nth-child(even){<br>background: siver;<br>}</code></pre>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="dropdown3" aria-labelledby="dropdown3-tab"> 
+                                <p>Además	también	se	han	añadido	nuevas	pseudo-clases	que	podemos	usar	en	los
+                                    formularios	para	aplicar	un	formato	según	el	estado	de	un	campo.	Estas	propiedades	van
+                                    en	concordancia	con	los	nuevos	campos	introducidos	en	HTML5	(ver	la	sección	de
+                                    formularios	de	HTML5).	estas	son:
+                                    <ul>
+                                        <li><strong>:valid</strong> campo	válido	(dependerá	del	tipo	de	campo)</li><br>
+                                        <li><strong>:invalid</strong> campo	inválido	(dependerá	del	tipo	de	campo).</li><br>
+                                        <li><strong>:required</strong> campo	requerido	(marcado	con	el	atributo	"required").</li><br>
+                                        <li><strong>:optional</strong> campo	opcional	(campo	no	marcado	con	el	atributo	"required").</li><br>
+                                        <li><strong>:checked</strong> elemento	marcado	(o	checked,	válido	para	radio	button	o	checkbox).</li><br>
+                                        <li><strong>:in-range</strong> valor	dentro	del	rango	indicado	(para	campos	numéricos	o	de	rango).</li><br>
+                                        <li><strong>:out-of-range</strong> valor	fuera	de	rango	(para	campos	numéricos	o	de	rango).</li><br>
+                                        <li><strong>:read-only</strong> campo	de	solo	lectura.</li><br>
+                                        <li><strong>:read-write</strong> 	campo	de	lectura	/	escritura.</li><br>
+                                    </ul>                
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="panel variations-panel">
+                    <div class="panel-body mtn">
+                        <h3 class="w3_inner_tittle two">Color</h3>
+                    </div>
+                    <p>En CSS3 se han incorporado nuevas formas para definir loscolores, la mas usada es: </p> <br>
+                        <ol>
+                            <li><strong> rgba(red,green,blue,opacity);</strong> El valor de opacidad debe estar entre 0 y 1 siendo 0 totalmente transparente</li>
+                        </ol> <br>
+                        <pre><code>background-color: rgba(255,115,135,0.5);</code></pre>
+                    
+                    <div class="panel-body mtn">
+                        <h3 class="w3_inner_tittle two">Bordes</h3> 
+                    </div>
+                    <p>En	CSS3	se	han	incorporado	cuatro	nuevas	propiedades	para	dar	formato	a	los	bordes	de
+                        una	caja.</p>
+                        <Strong>border-radius:</Strong>
+                        permite	crear	cajas	con	esquinas	redondeadas.	Hasta	ahora	esto	solo
+                        se	podía	hacer	insertando	imágenes	que	simularan	esta	característica <br>
+                        <strong>border-image:</strong> este	nuevo	estilo	nos	permite	usar	una	imagen	como	borde	de	una	caja.
+                        Tenemos	que	indicar	tres	atributos:	la	imagen	a	utilizar,	el	 grosor	y	la	forma	de	aplicar	la
+                        imagen	(stretch,	repeat,	round,	none).<br>
+                        <strong>border-color:</strong> Permite	crear	degradados	en	los	bordes	de	una	caja	indicando	la
+                        Bordes
+                        100
+                        secuencia	de	colores	del	degradado	(píxel	a	píxel	y	de	dentro	hacia	fuera),<br> <strong>box-shadow:</strong> Permite	dar	sombra	a	elementos	de	bloque.	Tiene	4	atributos:	la
+                        distancia	horizontal	de	la	sombra,	la	distancia	vertical	de	la	 sombra,	el	desenfoque
+                        (blur)	y	el	color	de	la	sombra.	Además	podemos	usar	valores	negativos	para	las
+                        distancias	horizontal	y	vertical	para	crear	sombras	en	otros	sentidos.<br>
+                </div>
+            </div>
+        
+                    <!-- //main content ends-->
+
+                    <!-- script-for sticky-nav -->
+                    <script>
+                        $(document).ready(function() {
+                            var navoffeset = $(".header-main").offset().top;
+                            $(window).scroll(function() {
+                                var scrollpos = $(window).scrollTop();
+                                if (scrollpos >= navoffeset) {
+                                    $(".header-main").addClass("fixed");
+                                } else {
+                                    $(".header-main").removeClass("fixed");
+                                }
+                            });
+
+                        });
+                    </script>
+                    <!-- /script-for sticky-nav -->
+                    <!--inner block start here-->
+                    <div class="inner-block">
+
+                    </div>
+                    <!--inner block end here-->
+                </div>
+                <!--footer-->
+                <div class="footer">
+                    <p>&copy; 2021 Front End Design Dashboard. All Rights Reserved | Design by <a href="#PONER  MI WEB" target="_blank">JGT-MDigital</a></p>
+                </div>
+                <!--//footer-->
+
+                <!-- side nav js -->
+                <script src='js/SidebarNav.min.js' type='text/javascript'></script>
+                <script>
+                    $('.sidebar-menu').SidebarNav()
+                </script>
+                <!-- //side nav js -->
+
+                <!-- Classie -->
+                <!-- for toggle left push menu script -->
+                <script src="js/classie.js"></script>
+                <script>
+                    var menuLeft = document.getElementById('cbp-spmenu-s1'),
+                        showLeftPush = document.getElementById('showLeftPush'),
+                        body = document.body;
+
+                    showLeftPush.onclick = function() {
+                        classie.toggle(this, 'active');
+                        classie.toggle(body, 'cbp-spmenu-push-toright');
+                        classie.toggle(menuLeft, 'cbp-spmenu-open');
+                        disableOther('showLeftPush');
+                    };
+
+                    function disableOther(button) {
+                        if (button !== 'showLeftPush') {
+                            classie.toggle(showLeftPush, 'disabled');
+                        }
+                    }
+                </script>
+                <!-- //Classie -->
+                <!-- //for toggle left push menu script -->
+
+                <!--scrolling js-->
+                <script src="js/jquery.nicescroll.js"></script>
+                <script src="js/scripts.js"></script>
+                <!--//scrolling js-->
+
+                <!-- Bootstrap Core JavaScript -->
+                <script src="js/bootstrap.js">
+                </script>
+
+</body>
+
+</html>

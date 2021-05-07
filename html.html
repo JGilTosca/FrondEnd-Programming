@@ -1,0 +1,893 @@
+<!--
+Author: JGT-MDigital
+Author URL: PONER MI WEB
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Front End</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Front End Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+
+    <!-- font-awesome icons CSS -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons CSS-->
+
+    <!-- side nav css file -->
+    <link href='css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css' />
+    <!-- //side nav css file -->
+
+    <!-- js-->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+
+    <!--webfonts-->
+    <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <!--//webfonts-->
+
+    <!-- chart -->
+    <script src="js/Chart.js"></script>
+    <!-- //chart -->
+
+    <!-- Metis Menu -->
+    <script src="js/metisMenu.min.js"></script>
+    <script src="js/custom.js"></script>
+    <link href="css/custom.css" rel="stylesheet">
+    <!--//Metis Menu -->
+    <style>
+        #chartdiv {
+            width: 100%;
+            height: 295px;
+        }
+    </style>
+    <!--pie-chart -->
+    <!-- index page sales reviews visitors pie chart -->
+    <script src="js/pie-chart.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#demo-pie-1').pieChart({
+                barColor: '#2dde98',
+                trackColor: '#eee',
+                lineCap: 'round',
+                lineWidth: 8,
+                onStep: function(from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#8e43e7',
+                trackColor: '#eee',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function(from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-3').pieChart({
+                barColor: '#ffc168',
+                trackColor: '#eee',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function(from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+
+        });
+    </script>
+    <!-- //pie-chart -->
+    <!-- index page sales reviews visitors pie chart -->
+
+    <!-- requried-jsfiles-for owl -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+                items: 3,
+                lazyLoad: true,
+                autoPlay: true,
+                pagination: true,
+                nav: true,
+            });
+        });
+    </script>
+    <!-- //requried-jsfiles-for owl -->
+</head>
+
+<body class="cbp-spmenu-push">
+    <div class="main-content">
+        <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+            <!--left-fixed -navigation-->
+            <aside class="sidebar-left">
+                <nav class="navbar navbar-inverse">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapse" aria-expanded="false">
+            <span class="sr-only">Contenido</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+                        <h1><a class="navbar-brand" href="index.html"><span class="fa fa-area-chart"></span> Front End <span class="dashboard_text">Design Dashboard</span></a></h1>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="sidebar-menu">
+                            <li class="header">CONTENIDOS</li>
+                            <li class="treeview">
+                                <a href="index.html">
+                                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="fa fa-laptop"></i>
+                                    <span>Web Basic Components</span>
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="html.html"><i class="fa fa-angle-right"></i> HTML</a></li>
+                                    <li><a href="css.html"><i class="fa fa-angle-right"></i> Css</a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="css.html"><i class="fa fa-angle-right"></i> CSS3 Basic</a></li>
+                                            <li><a href="responsive.html"><i class="fa fa-angle-right"></i> Responsive Design</a></li>
+                                            <li><a href="grids.html"><i class="fa fa-angle-right"></i> Grids</a></li>
+                                            <li><a href="flexbox.html"><i class="fa fa-angle-right"></i> Flexbox</a></li>
+                                            <li><a href="mediaqueries.html"><i class="fa fa-angle-right"></i> Media Queries</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i> JavaScript</a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="js.html"><i class="fa fa-angle-right"></i>JavaScript General</a></li>
+                                            <li><a href="dom.html"><i class="fa fa-angle-right"></i>DOM (DOCUMENT OBJECT MODEL)</a></li>
+                                            <li><a href="context.html"><i class="fa fa-angle-right"></i> Context</a></li>
+                                            <li><a href="clousers.html"><i class="fa fa-angle-right"></i> Clousers</a></li>
+                                            <li><a href="scope.html"><i class="fa fa-angle-right"></i> Scope</a></li>
+                                            <li><a href="classes.html"><i class="fa fa-angle-right"></i> Classes</a></li>
+                                            <li><a href="funtions.html"><i class="fa fa-angle-right"></i> Funtions</a></li>
+                                            <li><a href="oop.html"><i class="fa fa-angle-right"></i> OOP (OBJECT ORIENTED PROGRAMMING)</a></li>
+                                            <li><a href="js.html"><i class="fa fa-angle-right"></i> JavaScript Modular</a></li>
+                                            <li><a href="imports/exports.html"><i class="fa fa-angle-right"></i> Imports/Exports</a></li>
+                                            <li><a href="webapis.html"><i class="fa fa-angle-right"></i> Web Apis</a></li>
+                                            <li><a href="set.html"><i class="fa fa-angle-right"></i> Setinterval/Settimeout</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--PROGRAMMING TOOLS  -->
+                            <li class="treeview">
+                                <li class="treeview">
+                                    <a href="#">
+                                        <i class=" fa fa-cogs"></i>
+                                        <span>Programming Tools</span>
+                                        <i class="fa fa-angle-left pull-right"></i>
+                                    </a>
+                                    <ul class="treeview-menu">
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> LA TERMINAL</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> SSH</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> GIT</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> REST APIS (CREAT, READ, UPDATE, DELETE)</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> DNS</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> LINTERS</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i> IDE (VSCODE)</a></li>
+                                    </ul>
+                                </li>
+                                <!-- DESING TOOLS -->
+                                <li class="treeview">
+                                    <li class="treeview">
+                                        <a href="#">
+                                            <i class=" fa fa-cogs"></i>
+                                            <span>Design Tools</span>
+                                            <i class="fa fa-angle-left pull-right"></i>
+                                        </a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="#"><i class="fa fa-angle-right"></i> PHOTOSHOP</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right"></i> ILUSTRATOR</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right"></i> SKETCH</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right"></i> ZEPELIN</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- FRONT END PLUS -->
+                                    <li class="treeview">
+                                        <li class="treeview">
+                                            <a href="#">
+                                                <i class=" fa fa-folder"></i>
+                                                <span>Front End Plus</span>
+                                                <i class="fa fa-angle-left pull-right"></i>
+                                            </a>
+                                            <ul class="treeview-menu">
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> LIBRARY ADMIN NPM</a></li>
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> BUILDERS WEBPACK</a></li>
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> SASS PARA CSS</a></li>
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> BOOTSTRAP</a></li>
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> PATRONES DE CSS BEM (BLOCK ELEMENT MODIFIER)</a></li>
+                                                <li><a href="#"><i class="fa fa-angle-right"></i> ATOMIC DESIGN</a></li>
+                                            </ul>
+                                        </li>
+                                        <!-- JS LIBRARY -->
+                                        <li class="treeview">
+                                            <li class="treeview">
+                                                <a href="#">
+                                                    <i class=" fa fa-code"></i>
+                                                    <span>JavaScript Librery</span>
+                                                    <i class="fa fa-angle-left pull-right"></i>
+                                                </a>
+                                                <ul class="treeview-menu">
+                                                    <li><a href="#"><i class="fa fa-angle-right"></i> ANGULAR</a></li>
+                                                    <li><a href="#"><i class="fa fa-angle-right"></i> REACT</a>
+                                                        <ul class="treeview-menu">
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i> CREATE REACT APP</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i> STRYBOOK</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i> GRAPHQL</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i> REDUX</a></li>
+                                                            <li><a href="#"><i class="fa fa-angle-right"></i> MOBX</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <!-- JS TOOLS -->
+                                            <li class="treeview">
+                                                <li class="treeview">
+                                                    <a href="#">
+                                                        <i class=" fa fa-cogs"></i>
+                                                        <span>JavaScript Tools</span>
+                                                        <i class="fa fa-angle-left pull-right"></i>
+                                                    </a>
+                                                    <ul class="treeview-menu">
+                                                        <li><a href="#"><i class="fa fa-angle-right"></i> TYPESCRIPT</a></li>
+                                                        <li><a href="#"><i class="fa fa-angle-right"></i> PROPTYPES</a></li>
+                                                        <li><a href="#"><i class="fa fa-angle-right"></i> PWAS (PROGRESSIVE WEB APPS)</a></li>
+                                                        <li><a href="#"><i class="fa fa-angle-right"></i> REACT NATIVE (APK)</a></li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="header"><i class="fa fa-edit (alias)"></i> NOTES</li>
+                                                <li><a href="general.html"><i class="fa fa-angle-right text-red"></i> <span>General</span></a></li>
+                                                <li><a href="important.html"><i class="fa fa-angle-right text-yellow"></i> <span>Important</span></a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+            </aside>
+        </div>
+        <!--left-fixed -navigation-->
+
+        <!-- header-starts -->
+        <div class="sticky-header header-section ">
+            <div class="header-left">
+                <!--toggle button start-->
+                <button id="showLeftPush"><i class="fa fa-bars"></i></button>
+                <!--toggle button end-->
+
+                <!--notification menu end -->
+                <div class="clearfix"> </div>
+            </div>
+            <div class="header-right">
+
+
+                <!--search-box-->
+                <div class="search-box">
+                    <form class="input">
+                        <input class="sb-search-input input__field--madoka" placeholder="Search..." type="search" id="input-31" />
+                        <label class="input__label" for="input-31">
+							<svg class="graphic" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"/>
+							</svg>
+						</label>
+                    </form>
+                </div>
+                <!--//end-search-box-->
+
+                <div class="profile_details">
+                    <ul>
+                        <li class="dropdown profile_details_drop">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <div class="profile_img">
+                                    <span class="prfil-img"><img src="images/admin.png" alt=""> </span>
+                                    <div class="user-name">
+                                        <p>JGT-MDigital</p>
+                                        <span>Administrator</span>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <!-- //header-ends -->
+    
+        <!-- main content start-->
+        <div id="page-wrapper">
+            <div class="main-page">
+                <h2 class="title1">HTML</h2>
+                <!-- HTML -->
+                <!-- HTML BASIC ELEMENTS -->
+                <div class="panel1 variations-panel">
+                    <div class="panel-body mtn">
+                        <h3 class="w3_inner_tittle two">HTML Basic Elements</h3>
+                    </div>
+                    <!-- META -->
+                    <div class="panel-group tool-tips widget-shadow" id="accordion" role="tablist" aria-multiselectable="true">
+                        <h4 class="title2"> Etiquetas Meta :</h4>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            meta http-equiv="X-UA-Compatible" content="IE=edge" 
+						</a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <strong>http-equiv</strong> Define reglas para la pw. <br><strong>Content-Security-Policy</strong> (Define un enlace a las políticas de contenido de una página web). <br>
+                                    <strong>refresh</strong> (Permite actualizar la página web cada N segundos, o incluso redirigir a otra URL). <br>
+
+                                    <strong>Ejemplo 1</strong> meta http-equiv="refresh" content="60" <br>
+                                    <strong>Ejemplo 2</strong> meta http-equiv="refresh" content="0; url=https://cssreference.io" <br>
+                                    <strong>X-UA-Compatible</strong> (Define en qué versión de Internet Explorer se debe representar la página web. <br>
+                                    <strong>Notas:</strong> content Define el contenido de los metadatos. Esto varía según el valor name o http-equiv.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							meta name="viewport" content="width=device-width, initial-scale=1.0"
+						</a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <strong>name</strong> Define información adicional adjunta a la página web. <br> <strong>viewport</strong> viewport (Define reglas de dimensión y escala para la ventana gráfica).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  /META-->
+                    <!-- ESTRUCTURA SEMANTICA -->
+                    <div class="panel-group tool-tips widget-shadow" id="accordion" role="tablist" aria-multiselectable="true">
+                        <h4 class="title2"> HTML5 :</h4>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    Estructura Semantica 
+                </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <ol>
+                                        <li>header</li>
+                                        <li>nav</li>
+                                        <li>
+                                            main
+                                            <ul>
+                                                <li>secction</li>
+                                                <li>article</li>
+                                            </ul>
+                                        </li>
+                                        <li>aside</li>
+                                        <li>footer</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Etiquetas de Texto
+                </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li>h1....h6....<em style="color: blue;">Encabezados</em></li>
+                                        <li>p.............<em style="color: blue;">Textos</em></li>
+                                        <li>br/..........<em style="color: blue;">Salto de linea</em></li>
+                                        <li>strong.....<em style="color: blue;">Texto en Negrita</em></li>
+                                        <li>em.........<em style="color: blue;">Texto en cursiva</em></li>
+                                        <li>del.........<em style="color: blue;">Texto Tachado</em></li>
+                                        <li>u............<em style="color: blue;">Texto Subrayado</em></li>
+                                        <li>pre.........<em style="color: blue;">Texto Preformateado</em></li>
+                                        <li>sup.........<em style="color: blue;">Superindice</em></li>
+                                        <li>sub.........<em style="color: blue;">Supraindice</em></li>
+                                        <li>blockquote........<em style="color: blue;">Cita Textual</em></li>
+                                        <li>hr/.........<em style="color: blue;">Linea Horizontal</em></li>
+                                        <li>span.......<em style="color: blue;">Forma de estilo a un trozo de texto</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                   Link (css)
+                </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                    <strong>link rel="stylesheet" href="" type=""/</strong>
+                                    <p>Generalmente es para vincular hojas de estilo. y se ubica en la etiqueta <strong>head</strong></p>
+                                    <ol>
+                                        <li>rel</li>
+                                        <em style="color:brown;">Define el tipo de enlace: </em>
+                                        <ul>
+                                            <li><span style="color: blue;">"stylesheet"</span> Hoja de estilos CSS</li>
+                                            <li><span style="color: blue;">"author"</span> Datos del Autor</li>
+                                            <li><span style="color: blue;">"icon"</span> Favicon</li>
+                                            <li><span style="color: blue;">"next" </span>Pag. siguiente</li>
+                                        </ul>
+                                        <li>href</li>
+                                        <em style="color: brown;">Define una URL para el enlace</em>
+                                        <ul>
+                                            <li><span style="color: blue;">"https://www.google.com"</span> URL Absoluta</li>
+                                            <li><span style="color: blue;">../main/index.html</span> URL Relativa</li>
+                                        </ul>
+                                        <li>type</li>
+                                        <em style="color: brown;">Tipo de recurso vinculado: </em>
+                                        <ul>
+                                            <li><span style="color: blue;">text/css</span></li>
+                                            <li><span style="color: blue;">text/html</span></li>
+                                        </ul>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSix">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Enlaces
+                </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                <div class="panel-body">
+                                    <p>HTML links are defined with the a tag:</p>
+                                    <strong>[a href="./ejemplo.html" target="_blank"] This is a link [/a]</strong>
+                                    <p>Si target="_blank", el enlace se abre en una nueva ventana de window o en otra pestaña. Podemos usar cualquier elemento en un enlace una imagen un texto un icono etc.</p>
+                                    <a href="#" target="_blank">This is a link</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //HTML -->
+            <!-- //HTML BASIC ELEMENTS -->
+
+            <!-- IMAGENES -->
+            <div class="buttons_w3ls_agile">
+
+                <div class="col-md-6 three agile_info_shadow">
+                    <h3 class="w3_inner_tittle two">Imágenes</h3>
+                    <!-- SLIDER4 -->
+                    <pre><code>img src="./images/slider4.jpg" alt="HTML tutorial" style="width:100%;height:100%;"</code></pre>
+                    <img src="./images/image.jpg" alt="HTML tutorial" style="width:100%;height:100%;">
+                    <p>Los formatos de imagenes para la web se clasifican en 2 tipos</p>
+                    <ol>
+                        <li>VECTORIALES</li>
+                        <ul>
+                            <li>svg (recomendado siempre que se pueda)</li>
+                        </ul>
+                        <li>MAPAS DE BITS</li>
+                        <ul>
+                            <li>jpg</li>
+                            <li>png 8 y 24 (si se necesita transparencias)</li>
+                            <li>gif (si se necesita una imagen animada)</li>
+                            <li>webp (el menos usado)</li>
+                        </ul>
+                    </ol>
+                </div>
+                <div class="col-md-6 three one agile_info_shadow">
+                    <!-- VIDEO -->
+                    <h3 class="w3_inner_tittle two"> Audio y Video</h3>
+                    <h4>Audio</h4>
+                    <pre><code>audio src="./audio-video/01 Solamente Tú .m4a" controls title="Solamente tu dePablo Alboram" muted /audio</code></pre> el atributo autoplay es para que en cuanto cargue la pagina se reprodusca el mismo <br>
+                    <audio src="./audio-video/01 Solamente Tú .m4a" controls title="Solamente tu dePablo Alboram" muted></audio>
+                    <h4>Video</h4>
+                    <pre><code>video src="./audio-video/Curso MASTER de HTML y CSS avanzado 🚀  2020 👉  CLASE 1 HTML5   de 👉 PRINCIPIANTE a EXPERTO.mp4" controls title="Nombre" /video</code></pre>
+                    <video src="./audio-video/Curso MASTER de HTML y CSS avanzado 🚀  2020 👉  CLASE 1 HTML5   de 👉 PRINCIPIANTE a EXPERTO.mp4" controls title="Curso Master de HTML y CSS" width="100%" height="100%" poster="./images/poster.jpg"></video>
+                    <p>Con el atributo <strong>muted</strong> como su nombre lo indica el video se encuentra en silencio se usa mucho cuando le ponemos al atributo <strong>autoplay</strong> para que el video se autoreprodusca <br>
+                        <strong>poster="./image/1.jpg"</strong> Y este es para cargar una imagen que querramos que se vea, no cumple objetivo si hacemos uso del atributo anterior.</p>
+
+
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!-- //VIDEO -->
+
+
+
+
+            <!-- LISTAS -->
+            <div class="col-sm-6 col-md-3 button-states-top-grid">
+                <div class="panel1 ">
+                    <div class="panel-heading">
+                        <div class="panel-title pn">
+                            <h3 class="mtn mb10 fw400">Listas</h3>
+                        </div>
+                    </div>
+                    <div class="mtn">
+                        <p class="mb15">
+                            <code>An Unordered List</code>
+                        </p>
+
+                        <ul>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ul>
+                        <hr>
+                        <p class="mb15">
+                            <code>An Ordered List</code>
+                        </p>
+
+                        <ol>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ol>
+                        <hr>
+
+                        <p class="mb15">
+                            <code>Type disc</code>
+                        </p>
+                        <ul style="list-style-type:disc;">
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ul>
+                        <hr>
+                        <p class="mb15">
+                            <code>Type circle</code>
+                        </p>
+                        <ul style="list-style-type:circle;">
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ul>
+                        <hr>
+                        <p class="mb15">
+                            <code>Type square</code>
+                        </p>
+                        <ul style="list-style-type:square;">
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ul>
+                        <hr>
+                        <p class="mb15">
+                            <code>Type none</code>
+                        </p>
+                        <ul style="list-style-type:none;">
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ul>
+                        <hr>
+
+                    </div>
+                </div>
+            </div>
+            <!-- //LISTAS1 -->
+
+            <!-- LISTAS 2 -->
+            <div class="col-sm-6 col-md-3 ">
+                <div class="panel1 button-sizes">
+                    <div class="panel-heading">
+                        <div class="panel-title pn">
+                            <h3 class="mtn mb10 fw400">Listas</h3>
+                        </div>
+                    </div>
+                    <p class="mb15">
+                        <code>Type numericas</code>
+                    </p>
+                    <ol type="1">
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                    </ol>
+                    <hr>
+                    <p class="mb15">
+                        <code>Type lestras mayusculas</code>
+                    </p>
+                    <ol type="A">
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                    </ol>
+                    <hr>
+                    <p class="mb15">
+                        <code>Type letras minusculas</code>
+                    </p>
+                    <ol type="a">
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                    </ol>
+                    <hr>
+                    <p class="mb15">
+                        <code>Type numeros romanos</code>
+                    </p>
+                    <ol type="I">
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                    </ol>
+                    <hr>
+                    <p class="mb15">
+                        <code>Listas de detalles</code>
+                    </p>
+                    <dl>
+                        <dt>Coffee</dt>
+                        <dd>- black hot drink</dd>
+                        <dt>Milk</dt>
+                        <dd>- white cold drink</dd>
+                    </dl>
+                    <p class="mb15">
+                        <code>Listas de anidadas</code>
+                    </p>
+
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Tea
+                            <ul>
+                                <li>Black tea</li>
+                                <li>Green tea
+                                    <ul>
+                                        <li>China</li>
+                                        <li>Africa</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Milk</li>
+                    </ul>
+                    <hr>
+                    <p class="mb15">
+                        <code>Listas de detalles</code>
+                    </p>
+
+                    <ul id="menu">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+            <!-- //LISTAS -->
+            <!-- FORMULARIO BASICO -->
+            <div class="col-sm-6 hover-buttons">
+                <div class="wrap">
+                    <div class="bg-effect">
+                        <h2>Elementos Básicos de un Formulario</h2>
+                        <dl>
+                            <dt>form</dt>
+                            <dd>---Engloba el formulario</dd>
+                            <dt>label</dt>
+                            <dd>---Nombre del campo a rellenar, nota para unir un label a un input debemos ponerle al label el atributo <strong>for="label name"</strong> y en el atributo input poner el atributo <strong>id="label name"</strong></dd>
+                            <dt>input</dt>
+                            <dd>---Campo que le permite al usuario interactuar</dd>
+                            <dt>button</dt>
+                            <dd>---Crea un boton para enviar el formulario</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!-- //icon-hover-effects -->
+            <div class="clearfix"> </div>
+
+            <!-- //FORMULARIO -->
+        </div>
+        <div id="page-wrapper">
+            <div class="main-page">
+                <h2 class="title1">Formlario</h2>
+                <div class="blank-page widget-shadow scroll" id="style-2 div1">
+                    <dl>
+                        <h1>HTML Form Attributes</h1>
+                        <dt><strong>action</strong></dt>
+                        <dd> define la acción que se realizará cuando se envíe el formulario.</dd>
+                        <dt><strong>target</strong></dt>
+                        <dd>especifica dónde mostrar la respuesta que se recibe después de enviar el formulario.</dd>
+                        <p>Posibles valores del atributo TARGET</p>
+                        <ol>
+                            <li>
+                                <dl>
+                                    <dt><strong>_blank</strong></dt>
+                                    <dd>La respuesta se muestra en una nueva ventana o pestaña</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dt><strong>_self</strong></dt>
+                                <dd>La respuesta se muestra en la ventana actual</dd>
+                            </li>
+                            <li>
+                                <dt><strong>_parent</strong></dt>
+                                <dd>La respuesta se muestra en el marco principal.</dd>
+                            </li>
+                            <li>
+                                <dt><strong>_top</strong></dt>
+                                <dd>La respuesta se muestra en todo el cuerpo de la ventana.</dd>
+                            </li>
+                            <li>
+                                <dt><strong>framename</strong></dt>
+                                <dd>La respuesta se muestra en un iframe con nombre</dd>
+                            </li>
+                        </ol>
+                    </dl>
+                    <div class="form-title">
+                        <h4>Formulario HTML5</h4>
+                    </div>
+                    <div class="form-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="busqueda">Búsqueda con historicos</label>
+                            <input type="search" name="busqueda" results="2">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Selector Numerico</label>
+                            <input type="number" name="number" max="10" min="1" >
+                        </div>
+                        <div class="form-group">
+                            <label for="range">Selector Numerico mediante una Barra de Desplazamiento</label>
+                            <input type="range" name="range" min="1" max="10" >
+                            <output onformchange="value = range.value">5</output><!-- revisar mas adelante como es lo deeste atributo -->
+                        </div>
+                        <div class="form-group">
+                            <label for="color">Selector de Colores</label>
+                            <input type="color" name="color">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Selector de Dia en el Calendario</label>
+                            <input type="date" name="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="month">Selector de Meses</label>
+                            <input type="month" name="month">
+                        </div>
+                        <div class="form-group">
+                            <label for="week">IDEM Semana</label>
+                            <input type="week" name="week">
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Permite seleccionar hora</label>
+                            <input type="time" name="time">
+                        </div>
+                        <div class="form-group">
+                            <label for="datetime">Seleccionar fecha y hora</label>
+                            <input type="datetime" name="datetime" placeholder="Selecciona un valor">
+                        </div>
+                        <div class="form-group">
+                            <h3>Esto es un campo requerido</h3>
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" placeholder="Escriba su Nombre" required autocomplete="off">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="diasemana">Dia de la semana: </label>
+                            <input type="text" name="diasemana" list="dias">
+                            <datalist id="dias"><!-- Elementos de la lista -->
+                                <option value="Lunes"></option>
+                                <option value="Martes"></option>
+                                <option value="Miercoles"></option>
+                                <option value="Jueves"></option>
+                                <option value="Viernes"></option>
+                                <option value="Sabado"></option>
+                                <option value="Domingo"></option>
+                            </datalist>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //main content ends-->
+
+    <!-- script-for sticky-nav -->
+    <script>
+        $(document).ready(function() {
+            var navoffeset = $(".header-main").offset().top;
+            $(window).scroll(function() {
+                var scrollpos = $(window).scrollTop();
+                if (scrollpos >= navoffeset) {
+                    $(".header-main").addClass("fixed");
+                } else {
+                    $(".header-main").removeClass("fixed");
+                }
+            });
+
+        });
+    </script>
+    <!-- /script-for sticky-nav -->
+    <!--inner block start here-->
+    <div class="inner-block">
+
+    </div>
+    <!--inner block end here-->
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <p>&copy; 2021 Front End Design Dashboard. All Rights Reserved | Design by <a href="#PONER  MI WEB" target="_blank">JGT-MDigital</a></p>
+    </div>
+    <!--//footer-->
+
+    <!-- side nav js -->
+    <script src='js/SidebarNav.min.js' type='text/javascript'></script>
+    <script>
+        $('.sidebar-menu').SidebarNav()
+    </script>
+    <!-- //side nav js -->
+
+    <!-- Classie -->
+    <!-- for toggle left push menu script -->
+    <script src="js/classie.js"></script>
+    <script>
+        var menuLeft = document.getElementById('cbp-spmenu-s1'),
+            showLeftPush = document.getElementById('showLeftPush'),
+            body = document.body;
+
+        showLeftPush.onclick = function() {
+            classie.toggle(this, 'active');
+            classie.toggle(body, 'cbp-spmenu-push-toright');
+            classie.toggle(menuLeft, 'cbp-spmenu-open');
+            disableOther('showLeftPush');
+        };
+
+        function disableOther(button) {
+            if (button !== 'showLeftPush') {
+                classie.toggle(showLeftPush, 'disabled');
+            }
+        }
+    </script>
+    <!-- //Classie -->
+    <!-- //for toggle left push menu script -->
+
+    <!--scrolling js-->
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/scripts.js"></script>
+    <!--//scrolling js-->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js">
+    </script>
+
+</body>
+
+</html>
